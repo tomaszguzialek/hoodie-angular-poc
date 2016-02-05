@@ -1,0 +1,24 @@
+{
+  "name": "hoodie-angular-poc",
+  "version": "0.0.1",
+  "description": "Proof of concept for Hood.ie + AngularJS integration",
+  "main": "app/app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomaszguzialek/hoodie-angular-poc.git"
+  },
+  "keywords": [
+    "hoodie",
+    "hood.ie",
+    "angular",
+    "angularjs",
+    "offline-first",
+    "couchdb"
+  ],
+  "author": "Tomasz Guzialek",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tomaszguzialek/hoodie-angular-poc/issues"
+  },
+  "homepage": "https://github.com/tomaszguzialek/hoodie-angular-poc#readme"
+}
