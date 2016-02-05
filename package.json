@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/tomaszguzialek/hoodie-angular-poc/issues"
   },
-  "homepage": "https://github.com/tomaszguzialek/hoodie-angular-poc#readme"
+  "homepage": "https://github.com/tomaszguzialek/hoodie-angular-poc#readme",
+  "dependencies": {
+    "angular": "^1.5.0"
+  }
 }
