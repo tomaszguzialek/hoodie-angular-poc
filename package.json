@@ -21,12 +21,12 @@
     "url": "https://github.com/tomaszguzialek/hoodie-angular-poc/issues"
   },
   "homepage": "https://github.com/tomaszguzialek/hoodie-angular-poc#readme",
+  "scripts": {
+      "start": "hoodie"
+  },
   "dependencies": {
     "angular": "^1.5.0",
-    "hoodie-plugin-appconfig": "^2.0.1",
-    "hoodie-plugin-email": "^1.0.0",
-    "hoodie-plugin-users": "^2.2.2",
-    "hoodie-server": "^4.0.3",
+    "hoodie": "^11.0.0",
     "jquery": "^2.2.0"
   },
   "devDependencies": {
