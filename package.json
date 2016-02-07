@@ -22,10 +22,22 @@
   },
   "homepage": "https://github.com/tomaszguzialek/hoodie-angular-poc#readme",
   "dependencies": {
-    "angular": "^1.5.0"
+    "angular": "^1.5.0",
+    "hoodie-plugin-appconfig": "^2.0.1",
+    "hoodie-plugin-email": "^1.0.0",
+    "hoodie-plugin-users": "^2.2.2",
+    "hoodie-server": "^4.0.3",
+    "jquery": "^2.2.0"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-connect": "^2.3.1"
+  },
+  "hoodie": {
+    "plugins": [
+      "hoodie-plugin-appconfig",
+      "hoodie-plugin-email",
+      "hoodie-plugin-users"
+    ]
   }
 }
