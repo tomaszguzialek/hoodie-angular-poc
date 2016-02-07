@@ -9,7 +9,27 @@
     
     <h1>Hello {{who}}!</h1>
     
+    <div ng-if="isLoggedIn()">
+        You are logged in!
+        <a href ng-click="logout()">Logout</a>
+    </div>
+    
+    <div ng-if="!isLoggedIn()">
+        Please login!
+        <form ng-submit="login(username, password)">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" ng-model="username" />
+        
+            <label for="username">Password:</label>
+            <input type="password" id="password" name="password" ng-model="password" />
+            
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    
     <script src="../node_modules/angular/angular.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../_api/_files/hoodie.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
